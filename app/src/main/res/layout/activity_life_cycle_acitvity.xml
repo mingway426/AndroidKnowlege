@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.lifecycleTest.LifeCycleAcitvity">
 
-    <Button
+    <TextView
+        android:id="@+id/tv_life_cycle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/bt_lifecycle"
-        android:text="生命周期"
-        android:onClick="lifeCycle"
-        ></Button>
-
+        android:layout_margin="26dp"
+        android:text="TextView" />
 </RelativeLayout>
